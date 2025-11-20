@@ -40,21 +40,21 @@ const RoadmapSection: React.FC = () => {
             <h3 className="text-xl font-bold text-slate-900 mb-4">Internal Team + Consultants?</h3>
             <div className="space-y-6">
               <div className="flex gap-4">
-                <div className="bg-white p-3 rounded-lg shadow-sm h-fit"><Users size={20} className="text-blue-600"/></div>
+                <div className="bg-white p-3 rounded-lg shadow-sm h-fit"><Users size={20} className="text-blue-600" /></div>
                 <div>
                   <h4 className="font-semibold text-slate-900">Knowledge Retention</h4>
                   <p className="text-sm text-slate-600">Ensures continuity and institutional memory stays within the business.</p>
                 </div>
               </div>
               <div className="flex gap-4">
-                <div className="bg-white p-3 rounded-lg shadow-sm h-fit"><Zap size={20} className="text-blue-600"/></div>
+                <div className="bg-white p-3 rounded-lg shadow-sm h-fit"><Zap size={20} className="text-blue-600" /></div>
                 <div>
                   <h4 className="font-semibold text-slate-900">Strategic Alignment</h4>
                   <p className="text-sm text-slate-600">Objectives and culture are deeply understood by internal staff.</p>
                 </div>
               </div>
               <div className="flex gap-4">
-                <div className="bg-white p-3 rounded-lg shadow-sm h-fit"><Server size={20} className="text-blue-600"/></div>
+                <div className="bg-white p-3 rounded-lg shadow-sm h-fit"><Server size={20} className="text-blue-600" /></div>
                 <div>
                   <h4 className="font-semibold text-slate-900">Continuous Improvement</h4>
                   <p className="text-sm text-slate-600">Focus on long-term planning & optimization rather than billable hours.</p>
@@ -118,17 +118,16 @@ const RoadmapSection: React.FC = () => {
         <div className="mt-16 border-t border-slate-100 pt-10">
           <h3 className="text-xl font-bold text-slate-900 mb-6">Essential Skills and Roles</h3>
           <div className="flex flex-wrap gap-2">
-             {[
-               "Infrastructure Lead & Desktop Support",
-               "System Architect",
-               "Database & Warehouse Specialist",
-               "API Specialist",
-               "ERP & CRM Specialists"
-             ].map((role) => (
-               <span key={role} className="px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm font-medium text-slate-700 shadow-sm">
-                 {role}
-               </span>
-             ))}
+            {[
+              "Database & Warehouse Specialist",
+              "ERP & CRM Specialists",
+              "Infrastructure Lead",
+              "System Architect"
+            ].map((role) => (
+              <span key={role} className="px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm font-medium text-slate-700 shadow-sm">
+                {role}
+              </span>
+            ))}
           </div>
           <div className="mt-8 bg-slate-50 p-6 rounded-lg text-center border border-slate-100">
             <p className="text-slate-700 italic font-medium">
