@@ -119,10 +119,10 @@ const RoadmapSection: React.FC = () => {
           <h3 className="text-xl font-bold text-slate-900 mb-6">Essential Skills and Roles</h3>
           <div className="flex flex-wrap gap-2">
             {[
-              "Database & Warehouse Specialist",
               "ERP & CRM Specialists",
               "Infrastructure Lead",
-              "System Architect"
+              "System Architect",
+              "Database & Data Warehouse Specialist"
             ].map((role) => (
               <span key={role} className="px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm font-medium text-slate-700 shadow-sm">
                 {role}
