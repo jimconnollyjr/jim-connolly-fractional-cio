@@ -14,11 +14,11 @@ function App() {
       <Header />
       <main>
         <ServicesSection />
-        <HeroSection />
+        <RoadmapSection />
         <BioSection />
         <AboutSection />
-        <RoadmapSection />
         <ContactSection />
+        <HeroSection />
       </main>
       <Footer />
     </div>
