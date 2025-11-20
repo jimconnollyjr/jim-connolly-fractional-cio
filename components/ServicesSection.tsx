@@ -16,7 +16,7 @@ const services: ServiceItem[] = [
   {
     title: "Data Platform & Analytics",
     iconName: "BarChart3",
-    points: ["Warehousing, modeling, RLS", "Self-service dashboards", "Operational analytics & automation"]
+    points: ["Warehousing, modeling, RLS", "Strong Data yields stronger AI leverage", "Operational analytics & automation"]
   },
   {
     title: "Cybersecurity & Risk",

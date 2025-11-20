@@ -72,7 +72,7 @@ const RoadmapSection: React.FC = () => {
               { title: "ERP", desc: "Foundation; data accuracy & integrity; process standardization." },
               { title: "CRM", desc: "Customer insights; pipeline visibility; forecasting." },
               { title: "Data Warehouse", desc: "Single source of truth; real-time analytics/BI; integrates ERP & CRM." },
-              { title: "EDI", desc: "Automated partner transactions; error reduction." },
+              { title: "AI", desc: "Leverage AI for operational efficiency and marketing reach." },
               { title: "Ecommerce", desc: "Revenue growth; personalized digital engagement." },
               { title: "Master Data", desc: "Consistency & governance; cross-platform efficiency." },
             ].map((pillar, i) => (
